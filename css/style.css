@@ -1,0 +1,115 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-primary{
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+    color: black;
+}
+
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-primary:hover{
+    background: #ee4c0d;
+}
+
+/* header styles */
+
+#header{
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* nav styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 230px;
+    padding: 20px 0;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.logo-title{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Lobster', cursive;
+    color: #f1224f;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: .2s;
+}
+
+.nav-menu li a:hover{
+    color: #f1224f;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: right;
+}
+
+.banner-content{
+    width: 530px;
+    margin: 150px 230px 0 0;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.banner-desc{
+    font-size: 18px;
+    line-height: 30px;
+    color: #444343;
+    margin: 25px 0 35px 0;
+}
+
