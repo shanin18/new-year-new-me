@@ -78,9 +78,9 @@
 
 .nav-menu li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
     padding: 10px 20px;
     transition: .2s;
 }
@@ -96,6 +96,7 @@
 }
 
 .banner-content{
+    text-align: right;
     width: 530px;
     margin: 150px 230px 0 0;
 }
@@ -103,7 +104,6 @@
 .banner-title{
     font-weight: 700;
     font-size: 65px;
-    line-height: 76px;
 }
 
 .banner-desc{
@@ -113,3 +113,50 @@
     margin: 25px 0 35px 0;
 }
 
+/* main section styles */
+main{
+    width: 75%;
+    margin: auto;
+}
+
+section{
+    margin-top: 130px;
+}
+
+/* failures section styles */
+#failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failures-img,
+.failures-content{
+    flex: 40%;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.section-desc{
+    font-size: 18px;
+    line-height: 30px;
+    color: #444343;
+    margin: 25px 0 20px;
+}
+
+.failure-reason{
+    font-size: 20px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+.failure-reason i{
+    color:#16D887;
+    margin-right: 10px;
+}
+
+/* my plans section styles */
