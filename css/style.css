@@ -16,6 +16,12 @@
     color: black;
 }
 
+.text-secondary{
+    display: block;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
 .btn-primary{
     font-size: 20px;
     font-weight: 600;
@@ -237,8 +243,8 @@ section{
     transition: .3s;
 }
 
-.blog-items:hover{
-    box-shadow: 5px 5px 8px rgb(190, 190, 190);
+.items-container:hover{
+    box-shadow: 5px 5px 8px rgb(218, 217, 217);
 }
 
 .items-container2{
@@ -248,7 +254,7 @@ section{
 .items-container li{
     list-style: none;
     font-size: 20px;
-    color: white;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
@@ -259,12 +265,12 @@ section{
 }
 
 .items-container2 li i{
-    color: red;
+    color: #F5446D;
 }
 
 /* contact section styles */
 #contact-us{
-    background-image:linear-gradient(to right,  #F15B22, rgba(241, 91, 34, 0) ), url(../images/watch.png);
+    background-image:linear-gradient(to right, #F15B22, rgba(241, 91, 34, 0) ), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px;
@@ -272,7 +278,7 @@ section{
 }
 
 .contact-us-title{
-    color: white;
+    color: #FFFFFF;
     margin-bottom: 25px;
 }
 
@@ -281,7 +287,7 @@ section{
     margin-top: 130px;
     padding: 130px 230px;
     background-color: #151414;
-    color: white;
+    color: #FFFFFF;
 }
 
 .info-container{
