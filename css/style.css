@@ -160,3 +160,27 @@ section{
 }
 
 /* my plans section styles */
+#plans{
+    text-align: center;
+}
+
+.plans-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 20px 0 15px;
+}
+
+.plan-desc{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
